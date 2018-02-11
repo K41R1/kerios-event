@@ -1,0 +1,24 @@
+{
+    "name": "kerios/event-manager",
+    "description": "very small event driven library",
+    "type": "metapackage",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "Kerios\\": "src/",
+        "Test\\": "test/"
+      }
+    },
+    "authors": [
+        {
+            "name": "KhairiAbidi",
+            "email": "abidikhairi32@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
